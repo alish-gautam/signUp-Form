@@ -4,5 +4,5 @@ let userpass=document.querySelector(".userpassword")
 if(pw.value!=confirmpw.value){
     let incorrect=document.createElement("h1")
     incorrect.innerText="Passwords do not match"
-    userpass.appendChild(incorrect)
+    body.appendChild(incorrect)
 }
